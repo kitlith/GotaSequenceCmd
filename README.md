@@ -1,7 +1,7 @@
 # GotaSequenceCmd
 
 Small wrapper around [GotaSequenceLib](https://github.com/Gota7/GotaSequenceLib) that exposes:
- - BRSEQ to MIDI functionality
+ - BRSEQ to/from MIDI functionality
  - BRSEQ disassembly/reassembly
  - Some small misc. programmatic transformations.
 
@@ -13,10 +13,14 @@ Valid commands include:
  - disassemble: takes a brseq and converts it to a human editable text form
  - assemble: takes a file generated from 'disassemble' and converts it to brseq
  - to_midi: takes a brseq and converts it to midi
+ - from_midi: takes a midi and converts it to brseq
  - invert: takes a brseq and outputs a brseq, inverting all notes around note 63
 
 If an output filename is not specified, it will be generated from the input filename.
 ```
+
+There are also a few batch files that come with the program for the purpose of
+drag-n-drop conversion.
 
 ## Compiling
 

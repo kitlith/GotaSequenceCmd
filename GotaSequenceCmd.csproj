@@ -39,13 +39,13 @@
     <Compile Include="Sequence.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GotaSoundIO\GotaSoundIO.csproj">
-      <Project>{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}</Project>
-      <Name>GotaSoundIO</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GotaSequenceLib\GotaSequenceLib.csproj">
       <Project>{D06E248A-EF7A-4F1E-9A71-76204D61FF80}</Project>
       <Name>GotaSequenceLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GotaSoundIO\GotaSoundIO.csproj">
+      <Project>{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}</Project>
+      <Name>GotaSoundIO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
