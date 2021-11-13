@@ -12,7 +12,7 @@ namespace RevolutionFileLoader {
     /// <summary>
     /// DSP-ADPCM info.
     /// </summary>
-    public class DspAdpcmInfo : IReadable, IWritable {
+    public class DspAdpcmInfo : IReadable, IWriteable {
 
         /// <summary>
         /// Get the coeffecients.
@@ -269,7 +269,7 @@ namespace RevolutionFileLoader {
     /// <summary>
     /// File info.
     /// </summary>
-    public class FileInfo : IReadable, IWritable {
+    public class FileInfo : IReadable, IWriteable {
 
         /// <summary>
         /// Group Id.
@@ -300,7 +300,7 @@ namespace RevolutionFileLoader {
     /// <summary>
     /// An Id.
     /// </summary>
-    public class Id : IReadable, IWritable {
+    public class Id : IReadable, IWriteable {
 
         /// <summary>
         /// Value.
